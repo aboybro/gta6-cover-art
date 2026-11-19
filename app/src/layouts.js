@@ -14,6 +14,7 @@ export const LAYOUTS = [
     id: 'split',
     name: 'Split Duo',
     panels: 2,
+    // Both panels share the same slant so their shared edge is one diagonal.
     rects: [
       { x: 0, y: 0, w: 0.56, h: 1, slant: 0.05 },
       { x: 0.56, y: 0, w: 0.44, h: 1, slant: 0.05 },
